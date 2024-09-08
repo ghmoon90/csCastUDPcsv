@@ -1,0 +1,10 @@
+<CastTypes>
+    <Column>double</Column>
+    <Column>double</Column>
+    <Column>float</Column>
+    <Column>float</Column>
+    <Column>float</Column>
+    <Column>byte</Column>
+    <Column>byte</Column>
+    <Column>byte</Column>
+</CastTypes>
