@@ -34,7 +34,7 @@ same purpose as csCastSendCsv.exe </br>
 difference is that csCastSendCsv.exe uses castType.xml, but it utilizes castType.json format for variable type setting
 
 ## pyUDPhost
-usage : python pyUDPhost.py {host ip} {host port}
+usage : python pyUDPhost.py --ip {host ip} --port {host port}
 
 when you doesn't handover ip and port, it utilizes default
 default host ip is 127.0.0.1  </br>
