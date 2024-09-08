@@ -29,8 +29,8 @@ def main():
     # Argument parser for command-line input
     parser = argparse.ArgumentParser(description='host UDP server open')
     
-    parser.add_argument('ip', type=str, help='Destination IP address for UDP transmission.', default = '127.0.0.1')
-    parser.add_argument('port', type=int, help='Destination port for UDP transmission.', default = 1044)
+    parser.add_argument('--ip', type=str, help='Destination IP address for UDP transmission.', default = '127.0.0.1')
+    parser.add_argument('--port', type=int, help='Destination port for UDP transmission.', default = 1044)
 
     # Parse the arguments
     args = parser.parse_args()
