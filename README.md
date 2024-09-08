@@ -6,8 +6,8 @@ developed with visual studio community, .NET 8.0 toolchain.
 
 ## csUDPSendCsv
 
-usage : csUDPSendCsv.exe <data.csv> <dst ip address> <dst port>
+usage : csUDPSendCsv.exe {data.csv} {dst ip address} {dst port}
 
 ## csCastSendCsv
 
-usage : csCastUDPCsv.exe <data.csv> <dst ip address> <dst port>
+usage : csCastUDPCsv.exe {data.csv} {dst ip address} {dst port}
