@@ -23,5 +23,11 @@ def start_udp_server(host='0.0.0.0', port=12345):
     finally:
         udp_socket.close()
 
-# start_udp_server()
-start_udp_server(host='127.0.0.1', port=5000)
+def main():
+
+    # start_udp_server()
+    start_udp_server(host='127.0.0.1', port=5000)
+
+
+if __name__ != __main__:
+    main()
