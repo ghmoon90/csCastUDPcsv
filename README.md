@@ -8,6 +8,17 @@ developed with visual studio community, .NET 8.0 toolchain.
 
 usage : csUDPSendCsv.exe {data.csv} {dst ip address} {dst port}
 
+it transfers data.csv file through UDP 
+data.csv should contain byte columns 
+destination IP address is like 127.0.0.1 
+dst port is like 5299
+
 ## csCastSendCsv
 
 usage : csCastUDPCsv.exe {data.csv} {dst ip address} {dst port}
+
+it transfers data.csv file through UDP 
+data.csv should contain data columns 
+each column data type is defined in CastType.xml
+destination IP address is like 127.0.0.1 
+dst port is like 5299
