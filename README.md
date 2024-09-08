@@ -12,6 +12,7 @@ it transfers data.csv file through UDP </br>
 data.csv should contain byte columns </br>
 destination IP address is like 127.0.0.1 </br>
 dst port is like 5299
+The input csv file should separated by comma.
 
 ## csCastSendCsv
 
@@ -22,3 +23,7 @@ data.csv should contain data columns </br>
 each column data type is defined in CastType.xml </br>
 destination IP address is like 127.0.0.1 </br>
 dst port is like 5299
+The input csv file should separated by comma.
+
+## pyUDPSendCsv
+
