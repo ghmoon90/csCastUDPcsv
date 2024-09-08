@@ -1,4 +1,5 @@
 import socket
+import argparse
 
 def start_udp_server(host='0.0.0.0', port=12345):
     # Create a UDP socket
@@ -25,9 +26,18 @@ def start_udp_server(host='0.0.0.0', port=12345):
 
 def main():
 
+    # Argument parser for command-line input
+    parser = argparse.ArgumentParser(description='host UDP server open')
+    
+    parser.add_argument('ip', type=str, help='Destination IP address for UDP transmission.')
+    parser.add_argument('port', type=int, help='Destination port for UDP transmission.')
+
+    # Parse the arguments
+    args = parser.parse_args()
+    
     # start_udp_server()
-    start_udp_server(host='127.0.0.1', port=5000)
+    start_udp_server(host=args.ip, port=args.port)
 
 
-if __name__ != __main__:
+if __name__ == "__main__":
     main()
